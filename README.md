@@ -87,8 +87,8 @@ Sosyal medya profillerinden ve ağlarından (arkadaş listeleri, beğeniler, eti
 * **Altyapı Tespiti:** `Whois` (Alan adı sahiplik bilgisi).
 * **Cihaz/Servis Tarama:** `Shodan`, `Censys` (İnternete bağlı cihazları, portları ve servisleri tarar).
     * *Shodan Filtreleri İpucu:*
-        * Ülke: `country"ÜLKE KODU"`
-        * Şehir: `city"Şehir Adı" country:"ÜLKE KODU"`
+        * Ülke: `country "ÜLKE KODU"`
+        * Şehir: `city" Şehir Adı" country:"ÜLKE KODU"`
         * Koordinat: `geo:"ENLEM,BOYLAM", "KM-ARALIĞI"` (Koordinatı Google Haritalar URL'sinden alabilirsiniz. Ülke kodları için: [nationsonline.org](https://www.nationsonline.org/oneworld/country_code_list.htm))
 * **Teknoloji Tespiti:** `Wappalyzer` (eklenti) (Web sitesinin kullandığı teknolojileri [sunucu, CMS, analiz araçları] tespit eder).
 
