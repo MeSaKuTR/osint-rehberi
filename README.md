@@ -59,14 +59,14 @@ Operasyonel Güvenlik, görevin temel taşıdır. Kimliği (IP, dijital iz) gizl
 ### ⚖️ Etik Sınırlar ve Yasal Çerçeve
 Araştırmanın "kırmızı çizgilerini" (hangi bilgilerin toplanıp toplanmayacağını) belirlemek. Özel hayatın gizliliğine ve yerel/uluslararası yasalara (KVKK, GDPR vb.) uymak kritiktir.
 
-* **OSINT Framework (osintframework.com):** Bir toplama aracı değil, belirli bir hedef için hangi aracın veya veri kaynağının kullanılacağını gösteren devasa bir dizin ve yol haritasıdır. Görevin kapsamını belirlemek için kullanılır.
+* **OSINT Framework (osintframework.com):** Bir toplama aracı değil, belirli bir hedef için hangi aracın veya veri kaynağının kullanılacağını gösteren devasa bir dizin ve yol haritasıdır. Görevin kapsamını belirlemek için kullanılır. Alternatif olarak "https://bellingcat.gitbook.io/toolkit" burayı kullanabilirsiniz.
 
 ---
 
 ## AŞAMA 2: 🎣 BİLGİ TOPLAMA (Ham Veri Edinme)
 
 ### ☣️ Arama ve Sızıntı Analizi
-* **Google Dork:** Gelişmiş arama operatörleriyle gizli dosya, veritabanı ve sızıntıları bulma.
+* **Google Dork:** Gelişmiş arama operatörleriyle gizli dosya, veritabanı ve sızıntıları bulma. "https://exposingtheinvisible.org/guides/google-dorking/" Örnek kullanımlar için göz atabilirsiniz.
 * **Sızıntı Veritabanları:** `Dehashed`, `HaveIBeenPwned`, `LeakCheck.io`, `IntelligenceX`.
 * **Dark Web Taraması:** `.onion` siteleri ve yeraltı forumlarındaki sızıntı ve çalıntı verilerin taranması (`Tor Browser` gerektirir).
 
