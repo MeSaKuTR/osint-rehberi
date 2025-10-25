@@ -1,3 +1,7 @@
+
+<img width="1024" height="765" alt="image" src="https://github.com/user-attachments/assets/17c82956-1ce5-49fe-9125-9a6641271ddc" />
+
+
 ## 📍 İçindekiler
 
 1.  [AŞAMA 1: PLANLAMA & YÖNLENDİRME (Strateji ve Güvenlik)](#aşama-1-planlama--yönlendirme-strateji-ve-güvenlik)
@@ -24,7 +28,12 @@
     * [Yapılandırılmış Analitik Teknikler (SATs)](#️-yapılandırılmış-analitik-teknikler-sats)
 5.  [AŞAMA 5: YAYIM (Raporlama)](#aşama-5--yayim-raporlama)
 
-
+✷ 　 　　˚ * ✷ 　 　　 　 ·
+ 　 ˚ *  ⋆ ＊　 　 · 　 ✧　﹡
+ 　 　　 *　　 * ⋆ 　 .
+ · 　　 ⋆ 　⋆ ✧　 　 · 　 ＊　﹡ ˚ ˚ 　　              ˚ *                      ⋆ ＊　 　 ·       *
+ 　 ⋆ · 　 *        ⋆  *
+ 　　 ⋆        ﹡　 　    · 　 ✧　˚ *
 ---
 
 
