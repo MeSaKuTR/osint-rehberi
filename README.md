@@ -59,7 +59,6 @@ Operasyonel Güvenlik, görevin temel taşıdır. Kimliği (IP, dijital iz) gizl
 ### ⚖️ Etik Sınırlar ve Yasal Çerçeve
 Araştırmanın "kırmızı çizgilerini" (hangi bilgilerin toplanıp toplanmayacağını) belirlemek. Özel hayatın gizliliğine ve yerel/uluslararası yasalara (KVKK, GDPR vb.) uymak kritiktir.
 
-* **OSINT Framework (osintframework.com):** Bir toplama aracı değil, belirli bir hedef için hangi aracın veya veri kaynağının kullanılacağını gösteren devasa bir dizin ve yol haritasıdır. Görevin kapsamını belirlemek için kullanılır. Alternatif olarak "https://bellingcat.gitbook.io/toolkit" burayı kullanabilirsiniz.
 
 ---
 
@@ -148,6 +147,8 @@ Halka açık radyo frekanslarını, uydu sinyallerini ve IoT cihaz iletişimini 
 
 ---
 
+
+
 ## AŞAMA 3: ⚙️ İŞLEME & DEĞERLENDİRME (Veriyi Ayıklama)
 
 * **Metadata Analizi:** `ExifTool` (Fotoğraf, video ve dokümanlardan EXIF verilerini [tarih, saat, GPS konumu, cihaz modeli] okur, işler veya siler).
@@ -155,6 +156,8 @@ Halka açık radyo frekanslarını, uydu sinyallerini ve IoT cihaz iletişimini 
 * **Veri Temizleme:** `OpenRefine` (Büyük miktarda metin, sızıntı veya tablo verisini temizler, çift kayıtları siler ve formatları birleştirerek analize hazırlar).
 
 ---
+
+
 
 ## AŞAMA 4: 🧩 ANALİZ & ÜRETİM (Noktaları Birleştirme)
 
@@ -179,6 +182,9 @@ Bilişsel yanlılıkları yenmek ve karmaşık verileri işlemek için kullanıl
     * **ACH (Analysis of Competing Hypotheses):** En olası senaryoyu bulmak için kanıtları tüm hipotezlere karşı sistemli bir şekilde puanlama tekniği. (Amaç, en az yanlış olanı bulmaktır.)
     * **Devil's Advocacy (Şeytanın Avukatlığı):** Mevcut ana hipotezi çürütmek için aktif olarak karşı kanıtlar aramak.
     * **Indicators / Signposts (Göstergeler):** Belirli bir hipotezin doğru olup olmadığını anlamak için gelecekte izlenmesi gereken spesifik olayları veya veri noktalarını belirlemek.
+
+
+
 
 ---
 
