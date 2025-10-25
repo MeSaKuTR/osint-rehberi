@@ -37,9 +37,11 @@
 ---
 
 
-# 0'dan Uzmanlığa OSINT Ustalık Rehberi
+# 0'dan Uzmanlığa TÜRKÇE OSINT Rehberi!
+
 **İstihbarat Döngüsü ve Uygulama Aşamaları**
-Hazırlayan: MèSaKu (ve Laox'un katkılarıyla)
+Hazırlayan: MèSaKu 
+Katkıları için  Laox'a teşekkürler.
 
 ---
 
@@ -122,6 +124,7 @@ Devletler, belediyeler veya resmi kurumlar tarafından tutulan halka açık kay�
 * **Canlı Kameralar / Wi-Fi:** `Insecam.org`, `Shodan` (webcam filtresi), `Wigle.net` (Dünya çapında Wi-Fi ağ haritaları).
 * **Araçlar:** `Geospy Google Earth Studio`, `Google Earth Pro` (Cetvel ve Zaman Aracı), `SunCalc.org` (gölge analizi), `PeakVisor` (dağ/tepe tespiti), `MapDevelopers (Draw Circle Tool)`.
     * *İpucu: `MapDevelopers` veya `Google Earth Pro` ile belirli bir geo-koordinat etrafında (örn. 5km yarıçaplı) bir daire çizerek arama alanını daraltma pratiği yapın.*
+    * ** Lokasyon bulmak için ` GeoGuessr ` Oyunu ile pratik yapabilirsiniz. Mükemmeldir!!!
 
 ### 🛰️ Havacılık İstihbaratı (AVINT)
 * **Uçuş Takibi:** `Flightradar24`, `FlightAware`, `ADS-B Exchange` (Gerçek zamanlı veya geçmiş uçuş hareketleri, rotalar ve sahiplik bilgileri).
