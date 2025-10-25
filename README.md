@@ -49,6 +49,8 @@ Katkıları için  Laox'a teşekkürler.
 
 Görev hedeflerinin netleştirildiği, gerekli kaynakların belirlendiği, etik sınırların çizildiği ve operasyonel güvenliğin (OpSec) sağlandığı stratejik başlangıç aşamasıdır.
 
+
+
 ### 👻 OpSec Güvenliği (Teknik)
 Operasyonel Güvenlik, görevin temel taşıdır. Kimliği (IP, dijital iz) gizlemek için VPN, sanal makineler (VM), güvenli tarayıcılar ve görev için özel oluşturulmuş sahte (sock puppet) profillerin kullanılmasını kapsar.
 
@@ -72,6 +74,8 @@ Araştırmanın "kırmızı çizgilerini" (hangi bilgilerin toplanıp toplanmaya
 
 🚩 *Not: Bu araçlar yalnızca halka açık verileri analiz eder. Erişim her zaman etik ve yasal sınırlar içinde olmalıdır.*
 
+
+
 ### 🕵️ Sosyal Medya İstihbaratı (SOCMINT)
 Sosyal medya profillerinden ve ağlarından (arkadaş listeleri, beğeniler, etiketlenmiş fotoğtaflar, paylaşımlar) ham veri toplama.
 
@@ -83,14 +87,17 @@ Sosyal medya profillerinden ve ağlarından (arkadaş listeleri, beğeniler, eti
     * *Not: SpiderFoot'un `sfp_google`, `sfp_bing`, `sfp_twitter`, `sfp_facebook` gibi modülleri; sızdırılmışsa telefon rehber kayıtlarını, hesap bilgilerini ve sosyal medya profillerini doğrudan getirebilir.*
 * **Meta İçerik Kütüphanesi:** Meta'nın Facebook ve Instagram verilerine (öncelikli akademik) erişim aracı.
 
+
+
 ### 📡 Teknik Altyapı Taraması
 * **Altyapı Tespiti:** `Whois` (Alan adı sahiplik bilgisi).
 * **Cihaz/Servis Tarama:** `Shodan`, `Censys` (İnternete bağlı cihazları, portları ve servisleri tarar).
     * *Shodan Filtreleri İpucu:*
         * Ülke: `country "ÜLKE KODU"`
-        * Şehir: `city" Şehir Adı" country:"ÜLKE KODU"`
+        * Şehir: `city "Şehir Adı" country:"ÜLKE KODU"`
         * Koordinat: `geo:"ENLEM,BOYLAM", "KM-ARALIĞI"` (Koordinatı Google Haritalar URL'sinden alabilirsiniz. Ülke kodları için: [nationsonline.org](https://www.nationsonline.org/oneworld/country_code_list.htm))
 * **Teknoloji Tespiti:** `Wappalyzer` (eklenti) (Web sitesinin kullandığı teknolojileri [sunucu, CMS, analiz araçları] tespit eder).
+
 
 ### 🔗 Alan Adı ve DNS Geçmişi
 Bir web sitesinin geçmişte hangi IP/sunucularda barındığını veya hangi teknolojileri kullandığını görmek.
@@ -99,6 +106,8 @@ Bir web sitesinin geçmişte hangi IP/sunucularda barındığını veya hangi te
 * **DNS Kayıtları:** `DNSDumpster`, `SecurityTrails` (Geçmiş DNS kayıtları ve alt alan adları).
 * **DNS Sorgusu:** `nslookup` (Ters DNS [PTR] sorguları).
 
+
+
 ### 🏦 Kurumsal İstihbarat (Business/Corporate INT)
 Şirket yapılarını, kilit personeli, e-posta formatlarını ve mali durumu araştırmak.
 
@@ -106,18 +115,27 @@ Bir web sitesinin geçmişte hangi IP/sunucularda barındığını veya hangi te
 * **E-posta Kalıpları:** `Hunter.io`, `Snov.io`.
 * **E-posta Doğrulama:** `holehe` (E-posta adreslerinin hangi platformlarda kayıtlı olduğunu kontrol eder).
 
+
+
 ### 🏛️ Resmi Kayıt İstihbaratı (Public Records INT)
 Devletler, belediyeler veya resmi kurumlar tarafından tutulan halka açık kayıtları (dava dosyaları, tapu kayıtları, patentler, ticari markalar, siyasi bağışlar) araştırmak.
 
 * **Araçlar:** Ulusal/yerel mahkeme portal siteleri, tapu ve kadastro veritabanları, patent ofisi arama motorları (örn: `Google Patents`), resmi gazeteler.
 * **Kişi Arama Motorları (People Search):** `Pipl`, `Intelius`, `People Finder` hizmetleri.
 
+
+
 ### ⏳ Web Arşivleme
 * **Araçlar:** `Wayback Machine`, `Archive.today` (Silinmiş veya değiştirilmiş web sayfalarının geçmiş sürümlerine erişim sağlar).
+
+
+
 
 ### 👁️ Görüntü Tersine Arama (IMINT)
 * **Araçlar:** `Google Lens`, `TinEye`, `Yandex Images`, `Bing Images`, `PhotoSherlock` (Görselin kaynağını veya benzerlerini bulur).
     * *İpucu: "Reverse Image Search" gibi tarayıcı eklentileri bu servisleri tek tıkla kullanabilir.*
+
+
 
 ### 🎯 Coğrafi Veri Toplama (GEOINT)
 * **Analiz:** Fotoğraf ve videolardaki ipuçlarından (gölgeler, mimari, trafik işaretleri) çekim yerini tespit etmek.
@@ -126,19 +144,27 @@ Devletler, belediyeler veya resmi kurumlar tarafından tutulan halka açık kay�
     * *İpucu: `MapDevelopers` veya `Google Earth Pro` ile belirli bir geo-koordinat etrafında (örn. 5km yarıçaplı) bir daire çizerek arama alanını daraltma pratiği yapın.*
     * ** Lokasyon bulmak için ` GeoGuessr ` Oyunu ile pratik yapabilirsiniz. Mükemmeldir!!!
 
+
+
 ### 🛰️ Havacılık İstihbaratı (AVINT)
 * **Uçuş Takibi:** `Flightradar24`, `FlightAware`, `ADS-B Exchange` (Gerçek zamanlı veya geçmiş uçuş hareketleri, rotalar ve sahiplik bilgileri).
 * **Rotalar / Tasarımlar:** `Airlineroutemaps.com`, `Airlinersgallery.smugmug.com` (Havayolu rota haritaları ve uçak kuyruk tasarımları).
 
+
+
 ### ⚓ MARINT (Denizcilik İstihbaratı)
 Küresel tedarik zincirini ve gemi hareketlerini (AIS verileri) takip etmek.
 * **Araçlar:** `MarineTraffic`, `VesselFinder`, `FleetMon` (Gemilerin konumu, rotası, sahipliği ve yük durumu).
+
+
 
 ### ₿ FININT (Finansal İstihbarat) & Kripto OSINT
 Siber suç ve dolandırıcılık analizlerinde paranın (özellikle kripto paranın) takip edilmesi.
 
 * **Blockchain Gezginleri:** `Etherscan` (Ethereum), `Blockchair`, `BlockCypher`.
 * **Cüzdan Analizi:** `Wallet Explorer` (İşlem geçmişlerini ve cüzdanların bilinen borsalarla ilişkisini analiz eder).
+
+
 
 ### 📶 SIGINT (Sinyal İstihbaratı - Halka Açık Yönü)
 Halka açık radyo frekanslarını, uydu sinyallerini ve IoT cihaz iletişimini izlemek.
@@ -169,11 +195,16 @@ Halka açık radyo frekanslarını, uydu sinyallerini ve IoT cihaz iletişimini 
 * **Zaman Çizelgesi Analizi (Timeline Analysis):** Toplanan tüm verileri (sosyal medya paylaşımları, web sitesi güncellemeleri, uçuş kayıtları) kronolojik bir sıraya dizerek olayların akışını anlama ve örüntüleri ortaya çıkarma.
 * **Yapay Zeka ile Fikir Üretme:** Toplanan ham verileri özetlemek, ilişkileri sorgulamak veya potansiyel saldırı senaryoları oluşturmak için `GPT`, `Gemini`, `DeepSeek` gibi yapay zeka araçlarından faydalanma.
 
+
 ### 🎖️ Ustalık Seviyesi: Analitik Metodoloji (En Kritik Adım)
 Araçlar veriyi toplar, ancak "Usta" analist o veriden doğru sonucu çıkarır. Bu, beynimizin bize kurduğu tuzakları (Bilişsel Yanlılıklar) bilmekle başlar.
 
+
+
 #### 🎭 Bilişsel Yanlılıklar (Cognitive Biases) ve Yönetimi
 Analizdeki en büyük düşman, analistin kendi beynidir. Amaç, *Doğrulama Ön Yargısı* (Confirmation Bias - sadece kendi hipotezimizi doğrulayan kanıtları aramak) ve *Çıpalama* (Anchoring - ilk öğrenilen bilgiye takılıp kalmak) gibi analitik tuzakları aktif olarak engellemektir.
+
+
 
 #### 🛠️ Yapılandırılmış Analitik Teknikler (SATs)
 Bilişsel yanlılıkları yenmek ve karmaşık verileri işlemek için kullanılan standartlaşmış düşünme metodolojileridir. Amaç, hipotezleri test etmek ve varsayımları sorgulamaktır.
