@@ -3,8 +3,10 @@
 **İstihbarat Döngüsü ve Uygulama Aşamaları** Hazırlayan: MèSaKu 
  Katkıları için Laox'a teşekkürler.
 
-Bu rehber özenle hazırlandı! OSINT için pek çok bilgi ve sektörde kullanılan araçları; eksiksiz şekilde yani basit toollardan, uzmanların kullandığı tollara kadar size sunuyor.
-Yapmanız gereken bir alan seçip o alanda ustalaşmak! Bu rehber yol gösteren bir rehber tool kullanımlarını içermiyor. Kendiniz kullanmak istediğiniz toolları öğrenebilirsiniz burası her zaman kullanabileceğiniz bir kaynak olacak!
+Bu rehber özenle hazırlandı! 
+
+OSINT için pek çok bilgi ve sektörde kullanılan araçları; eksiksiz şekilde yani basit toollardan, uzmanların kullandığı tollara kadar size sunuyor.
+Yapmanız gereken bir alan seçip o alanda ustalaşmak! Tool kullanımlarını içermiyor. Kendiniz kullanmak istediğiniz toolları öğrenebilirsiniz burası her zaman kullanabileceğiniz bir kaynak olacak!
 ___
 
 ## AŞAMA 1: PLANLAMA & YÖNLENDİRME (Strateji ve Güvenlik)
