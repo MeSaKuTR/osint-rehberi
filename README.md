@@ -1,7 +1,10 @@
-# 0'dan Uzmanlığa OSINT Ustalık Rehberi
+# 0'dan OSINT Ustalık Rehberi!
 
-**İstihbarat Döngüsü ve Uygulama Aşamaları** Hazırlayan: MèSaKu ve katkıları için Laox'a teşekkürler.
+**İstihbarat Döngüsü ve Uygulama Aşamaları** Hazırlayan: MèSaKu 
+ Katkıları için Laox'a teşekkürler.
 
+Bu rehber özenle hazırlandı! OSINT için pek çok bilgi ve sektörde kullanılan araçları; eksiksiz şekilde yani basit toollardan, uzmanların kullandığı tollara kadar size sunuyor.
+Yapmanız gereken bir alan seçip o alanda ustalaşmak! Bu rehber yol gösteren bir rehber tool kullanımlarını içermiyor. Kendiniz kullanmak istediğiniz toolları öğrenebilirsiniz burası her zaman kullanabileceğiniz bir kaynak olacak!
 ___
 
 ## AŞAMA 1: PLANLAMA & YÖNLENDİRME (Strateji ve Güvenlik)
@@ -14,7 +17,7 @@ Operasyonel Güvenlik, görevin temel taşıdır. Kimliği (IP, dijital iz) gizl
 
 -   **👾 Sanalizasyon ve Ayrıştırma:** Kişisel bilgisayardan izole bir ortamda (`Tails`, `Whonix`, `Kali`) araştırma yapmak için `VirtualBox` veya `VMware` gibi sanal makine kullanımı.
     
--   **🕸️ Gizli Arama:** `DuckDuckGo`, `Brave Search`, `Firefox` veya `Tor Browser` gibi gizliliğe odaklı tarayıcı ve arama motorları.
+-   **🕸️ Gizli Arama:** `DuckDuckGo`, `Brave Search`, `Firefox` veya `Tor Browser` gibi gizliliğe odaklı tarayıcı ve arama motorları kullanmak!
     
 -   **Geçici E-posta:** Sahte profiller oluşturmak için `temp-mail` gibi geçici e-posta servisleri kullanın!
     
