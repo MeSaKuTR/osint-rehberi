@@ -2,7 +2,7 @@
 name: 💡 Yeni Araç Önerisi
 about: Rehbere eklenmesini istediğiniz yeni bir OSINT aracı önerin.
 title: "[ARAÇ ÖNERİSİ]: "
-labels: "enhancement", "tool-suggestion"
+labels: ["enhancement", "tool-suggestion"]
 ---
 
 **1. Aracın Adı:**
