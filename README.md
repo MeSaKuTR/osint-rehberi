@@ -45,22 +45,7 @@ ___
 
 **İstihbarat Döngüsü ve Uygulama Aşamaları** _Hazırlayan: MèSaKu (Katkıları için Laox'a teşekkürler.)_
 
-___
 
-📍 **İçindekiler**
-
--   AŞAMA 1: PLANLAMA & YÖNLENDİRME (Strateji ve Güvenlik)
-    
--   AŞAMA 2: BİLGİ TOPLAMA (Ham Veri Edinme)
-    
--   AŞAMA 3: İŞLEME & DEĞERLENDİRME (Veriyi Ayıklama)
-    
--   AŞAMA 4: ANALİZ & ÜRETİM (Noktaları Birleştirme)
-    
--   AŞAMA 5: YAYIM (Raporlama)
-    
--   📚 Önerilen Kitaplar ve İleri Okumalar
-    
 
 ___
 
@@ -81,13 +66,13 @@ Operasyonel Güvenlik, görevin temel taşıdır. Kimliği (IP, dijital iz) gizl
 -   **Geçici E-posta:** Sahte profiller oluşturmak için `temp-mail` gibi geçici e-posta servisleri.
     
 
-### ⚖️ Etik Sınırlar ve Yasal Çerçeve
+###  Etik Sınırlar ve Yasal Çerçeve
 
 Araştırmanın "kırmızı çizgilerini" (hangi bilgilerin toplanıp toplanmayacağını) belirlemek. Özel hayatın gizliliğine ve yerel/uluslararası yasalara (KVKK, GDPR vb.) uymak kritiktir.
 
 ## AŞAMA 2: 🎣 BİLGİ TOPLAMA (Ham Veri Edinme)
 
-### ☣️ Arama ve Sızıntı Analizi
+###  Arama ve Sızıntı Analizi
 
 -   **OSINT Framework:** Bir toplama aracı değil, belirli bir hedef için hangi aracın veya veri kaynağının kullanılacağını gösteren devasa bir dizin ve yol haritasıdır.
     
@@ -137,7 +122,7 @@ Sosyal medya profillerinden ve ağlarından (arkadaş listeleri, beğeniler, eti
 -   **Meta İçerik Kütüphanesi:** Meta'nın Facebook ve Instagram verilerine (öncelikli akademik) erişim aracı.
     
 
-### 📡 Teknik Altyapı Taraması
+###  Teknik Altyapı Taraması
 
 -   **Altyapı Tespiti:** `Whois` (Alan adı sahiplik bilgisi).
     
@@ -156,7 +141,7 @@ Sosyal medya profillerinden ve ağlarından (arkadaş listeleri, beğeniler, eti
 -   **Teknoloji Tespiti:** `Wappalyzer` (eklenti) (Web sitesinin kullandığı teknolojileri \[sunucu, CMS, analiz araçları\] tespit eder).
     
 
-### 🔗 Alan Adı ve DNS Geçmişi
+###  Alan Adı ve DNS Geçmişi
 
 Bir web sitesinin geçmişte hangi IP/sunucularda barındığını veya hangi teknolojileri kullandığını görmek.
 
@@ -167,7 +152,7 @@ Bir web sitesinin geçmişte hangi IP/sunucularda barındığını veya hangi te
 -   **DNS Sorgusu:** `nslookup` (Ters DNS \[PTR\] sorguları).
     
 
-### 🏦 Kurumsal İstihbarat (Business/Corporate INT)
+###  Kurumsal İstihbarat (Business/Corporate INT)
 
 Şirket yapılarını, kilit personeli, e-posta formatlarını ve mali durumu araştırmak.
 
@@ -178,7 +163,7 @@ Bir web sitesinin geçmişte hangi IP/sunucularda barındığını veya hangi te
 -   **E-posta Doğrulama:** `holehe` (E-posta adreslerinin hangi platformlarda kayıtlı olduğunu kontrol eder).
     
 
-### 🏛️ Resmi Kayıt İstihbaratı (Public Records INT)
+###  Resmi Kayıt İstihbaratı (Public Records INT)
 
 Devletler, belediyeler veya resmi kurumlar tarafından tutulan halka açık kayıtları (dava dosyaları, tapu kayıtları, patentler, ticari markalar, siyasi bağışlar) araştırmak.
 
@@ -187,19 +172,19 @@ Devletler, belediyeler veya resmi kurumlar tarafından tutulan halka açık kay�
 -   **Kişi Arama Motorları (People Search):** `Pipl`, `Intelius`, `People Finder` hizmetleri.
     
 
-### ⏳ Web Arşivleme
+###  Web Arşivleme
 
 -   **Araçlar:** `Wayback Machine`, `Archive.today` (Silinmiş veya değiştirilmiş web sayfalarının geçmiş sürümlerine erişim sağlar).
     
 
-### 👁️ Görüntü Tersine Arama (IMINT)
+###  Görüntü Tersine Arama (IMINT)
 
 -   **Araçlar:** `Google Lens`, `TinEye`, `Yandex Images`, `Bing Images`, `PhotoSherlock` (Görselin kaynağını veya benzerlerini bulur).
     
     -   > **İpucu:** "Reverse Image Search" gibi tarayıcı eklentileri bu servisleri tek tıkla kullanabilir.
         
 
-### 🎯 Coğrafi Veri Toplama (GEOINT)
+###  Coğrafi Veri Toplama (GEOINT)
 
 -   **Analiz:** Fotoğraf ve videolardaki ipuçlarından (gölgeler, mimari, trafik işaretleri) çekim yerini tespit etmek.
     
@@ -212,14 +197,14 @@ Devletler, belediyeler veya resmi kurumlar tarafından tutulan halka açık kay�
 -   **Pratik:** **Lokasyon bulmak için `GeoGuessr` Oyunu ile pratik yapabilirsiniz. Mükemmeldir!!!**
     
 
-### 🛰️ Havacılık İstihbaratı (AVINT)
+###  Havacılık İstihbaratı (AVINT)
 
 -   **Uçuş Takibi:** `Flightradar24`, `FlightAware`, `ADS-B Exchange` (Gerçek zamanlı veya geçmiş uçuş hareketleri, rotalar ve sahiplik bilgileri).
     
 -   **Rotalar / Tasarımlar:** `Airlineroutemaps.com`, `Airlinersgallery.smugmug.com` (Havayolu rota haritaları ve uçak kuyruk tasarımları).
     
 
-### ⚓ MARINT (Denizcilik İstihbaratı)
+###  MARINT (Denizcilik İstihbaratı)
 
 Küresel tedarik zincirini ve gemi hareketlerini (AIS verileri) takip etmek.
 
@@ -235,14 +220,14 @@ Siber suç ve dolandırıcılık analizlerinde paranın (özellikle kripto paran
 -   **Cüzdan Analizi:** `Wallet Explorer` (İşlem geçmişlerini ve cüzdanların bilinen borsalarla ilişkisini analiz eder).
     
 
-### 📶 SIGINT (Sinyal İstihbaratı - Halka Açık Yönü)
+###  SIGINT (Sinyal İstihbaratı - Halka Açık Yönü)
 
 Halka açık radyo frekanslarını, uydu sinyallerini ve IoT cihaz iletişimini izlemek.
 
 -   **Araçlar:** `SDR (Software Defined Radio)` donanımları, `RadioReference.com` (frekans veritabanları), `Cel-Mapper` (baz istasyonu konumları).
     
 
-## AŞAMA 3: ⚙️ İŞLEME & DEĞERLENDİRME (Veriyi Ayıklama)
+## AŞAMA 3:  İŞLEME & DEĞERLENDİRME (Veriyi Ayıklama)
 
 -   **Metadata Analizi:** `ExifTool` (Fotoğraf, video ve dokümanlardan EXIF verilerini \[tarih, saat, GPS konumu, cihaz modeli\] okur, işler veya siler).
     
@@ -251,7 +236,7 @@ Halka açık radyo frekanslarını, uydu sinyallerini ve IoT cihaz iletişimini 
 -   **Veri Temizleme:** `OpenRefine` (Büyük miktarda metin, sızıntı veya tablo verisini temizler, çift kayıtları siler ve formatları birleştirerek analize hazırlar).
     
 
-## AŞAMA 4: 🧩 ANALİZ & ÜRETİM (Noktaları Birleştirme)
+## AŞAMA 4:  ANALİZ & ÜRETİM (Noktaları Birleştirme)
 
 İşlenmiş bilgileri birleştirme, hipotezler kurma, varsayımları sorgulama ve sonuca ulaşma aşaması. _Ustalık bu aşamada kazanılır._
 
@@ -266,7 +251,7 @@ Halka açık radyo frekanslarını, uydu sinyallerini ve IoT cihaz iletişimini 
 -   **Yapay Zeka ile Fikir Üretme:** Toplanan ham verileri özetlemek, ilişkileri sorgulamak veya potansiyel saldırı senaryoları oluşturmak için `GPT`, `Gemini`, `DeepSeek` gibi yapay zeka araçlarından faydalanma.
     
 
-### 🎖️ Ustalık Seviyesi: Analitik Metodoloji (En Kritik Adım)
+### Ustalık Seviyesi: Analitik Metodoloji (En Kritik Adım)
 
 Araçlar veriyi toplar, ancak "Usta" analist o veriden doğru sonucu çıkarır. Bu, beynimizin bize kurduğu tuzakları (Bilişsel Yanlılıklar) bilmekle başlar.
 
@@ -275,11 +260,11 @@ Araçlar veriyi toplar, ancak "Usta" analist o veriden doğru sonucu çıkarır.
     -   [Bellingcat How-Tos](https://www.bellingcat.com/category/resources/how-tos/)
         
 
-### 🎭 Bilişsel Yanlılıklar (Cognitive Biases) ve Yönetimi
+###  Bilişsel Yanlılıklar (Cognitive Biases) ve Yönetimi
 
 Analizdeki en büyük düşman, analistin kendi beynidir. Amaç, **Doğrulama Ön Yargısı** (_Confirmation Bias_ - sadece kendi hipotezimizi doğrulayan kanıtları aramak) ve **Çıpalama** (_Anchoring_ - ilk öğrenilen bilgiye takılıp kalmak) gibi analitik tuzakları aktif olarak engellemektir.
 
-### 🛠️ Yapılandırılmış Analitik Teknikler (SATs)
+###  Yapılandırılmış Analitik Teknikler (SATs)
 
 Bilişsel yanlılıkları yenmek ve karmaşık verileri işlemek için kullanılan standartlaşmış düşünme metodolojileridir. Amaç, hipotezleri test etmek ve varsayımları sorgulamaktır.
 
@@ -307,7 +292,7 @@ Sonuçları bir karar vericiye (müşteri, yönetici, okuyucu) net, anlaşılır
 
 ___
 
-## 📚 Önerilen Kitaplar ve İleri Okumalar
+##  Önerilen Kitaplar ve İleri Okumalar
 
 **OSINT Techniques: Resources for Uncovering Online Information — Michael Bazzell**
 
