@@ -64,9 +64,9 @@ Görev hedeflerinin netleştirildiği, gerekli kaynakların belirlendiği, etik 
 
 Operasyonel Güvenlik, görevin temel taşıdır. Kimliği (IP, dijital iz) gizlemek için VPN, sanal makineler (VM), güvenli tarayıcılar ve görev için özel oluşturulmuş sahte (sock puppet) profillerin kullanılmasını kapsar.
 
--   **👾 Sanalizasyon ve Ayrıştırma:** Kişisel bilgisayardan izole bir ortamda (`Tails`, `Whonix`, `Kali`) araştırma yapmak için `VirtualBox` veya `VMware` kullanımı.
+-   ** Sanalizasyon ve Ayrıştırma:** Kişisel bilgisayardan izole bir ortamda (`Tails`, `Whonix`, `Kali`) araştırma yapmak için `VirtualBox` veya `VMware` kullanımı.
     
--   **🕸️ Gizli Arama:** `DuckDuckGo`, `Brave Search`, `Firefox` veya `Tor Browser` gibi gizliliğe odaklı tarayıcı ve arama motorları.
+-   ** Gizli Arama:** `DuckDuckGo`, `Brave Search`, `Firefox` veya `Tor Browser` gibi gizliliğe odaklı tarayıcı ve arama motorları.
     
 -   **Geçici E-posta:** Sahte profiller oluşturmak için `temp-mail` gibi geçici e-posta servisleri.
     
@@ -75,7 +75,7 @@ Operasyonel Güvenlik, görevin temel taşıdır. Kimliği (IP, dijital iz) gizl
 
 Araştırmanın "kırmızı çizgilerini" (hangi bilgilerin toplanıp toplanmayacağını) belirlemek. Özel hayatın gizliliğine ve yerel/uluslararası yasalara (KVKK, GDPR vb.) uymak kritiktir.
 
-## AŞAMA 2: 🎣 BİLGİ TOPLAMA (Ham Veri Edinme)
+## AŞAMA 2:  BİLGİ TOPLAMA (Ham Veri Edinme)
 
 ###  Arama ve Sızıntı Analizi
 
