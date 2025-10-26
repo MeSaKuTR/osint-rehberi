@@ -2,8 +2,9 @@
 <img width="1024" height="765" alt="image" src="https://github.com/user-attachments/assets/17c82956-1ce5-49fe-9125-9a6641271ddc" />
 
 
-## 📍 İçindekiler
 
+
+## 📍 İçindekiler
 1.  [AŞAMA 1: PLANLAMA & YÖNLENDİRME (Strateji ve Güvenlik)](#aşama-1-planlama--yönlendirme-strateji-ve-güvenlik)
     * [OpSec Güvenliği (Teknik)](#-opsec-güvenliği-teknik)
     * [Etik Sınırlar ve Yasal Çerçeve](#️-etik-sınırlar-ve-yasal-çerçeve)
@@ -12,7 +13,7 @@
     * [Sosyal Medya İstihbaratı (SOCMINT)](#️-sosyal-medya-istihbaratı-socmint)
     * [Teknik Altyapı Taraması](#-teknik-altyapı-taraması)
     * [Alan Adı ve DNS Geçmişi](#-alan-adı-ve-dns-geçmişi)
-    * [Kurumsal İstihbarat (Business/Corporate INT)](#-kurumsal-istihbarat-businesscorporate-int)
+    * [Kurumsal İstihbarat (Business/Corporate INT)](#-kurumsal-istihbaratı-businesscorporate-int)
     * [Resmi Kayıt İstihbaratı (Public Records INT)](#️-resmi-kayıt-istihbaratı-public-records-int)
     * [Web Arşivleme](#-web-arşivleme)
     * [Görüntü Tersine Arama (IMINT)](#️-görüntü-tersine-arama-imint)
@@ -24,9 +25,13 @@
 3.  [AŞAMA 3: İŞLEME & DEĞERLENDİRME (Veriyi Ayıklama)](#aşama-3-⚙️-işleme--değerlendirme-veriyi-ayıklama)
 4.  [AŞAMA 4: ANALİZ & ÜRETİM (Noktaları Birleştirme)](#aşama-4--analiz--üretim-noktaları-birleştirme)
     * [Ustalık Seviyesi: Analitik Metodoloji](#️-ustalık-seviyesi-analitik-metodoloji-en-kritik-adım)
-    * [Bilişsel Yanlılıklar (Cognitive Biases) ve Yönetimi](#-bilişsel-yanlılıklar-cognitive-biases-ve-yönetimi)
+    * [Bilişselyanlılıklar (Cognitive Biases) ve Yönetimi](#-bilişsel-yanlılıklar-cognitive-biases-ve-yönetimi)
     * [Yapılandırılmış Analitik Teknikler (SATs)](#️-yapılandırılmış-analitik-teknikler-sats)
 5.  [AŞAMA 5: YAYIM (Raporlama)](#aşama-5--yayim-raporlama)
+6.  [ÖNERİLEN KİTAPLAR VE İLERİ OKUMALAR](#📚-önerilen-kitaplar-ve-ileri-okumalar)
+7.  [AKADEMİK VAKA ANALİZİ: "OPERASYON: GÖLGE AĞ"](#🎓-akademik-vaka-analizi-operasyon-gölge-ağ)
+
+
 
 ✷ 　 　　˚ * ✷ 　 　　 　 ·
  　 ˚ *  ⋆ ＊　 　 · 　 ✧　﹡
@@ -36,7 +41,12 @@
  　　 ⋆        ﹡　 　    · 　 ✧　˚ *
 
 
+
+
 ___
+
+
+
 
 # 0'dan Uzmanlığa TÜRKÇE OSINT Rehberi!
 
