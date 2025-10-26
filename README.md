@@ -34,10 +34,7 @@
  · 　　 ⋆ 　⋆ ✧　 　 · 　 ＊　﹡ ˚ ˚ 　　              ˚ *                      ⋆ ＊　 　 ·       *
  　 ⋆ · 　 *        ⋆  *
  　　 ⋆        ﹡　 　    · 　 ✧　˚ *
----
 
-
-Elbette, GitHub'daki rehberinizi daha okunabilir ve yapılandırılmış bir Markdown formatına getiriyorum.
 
 ___
 
@@ -47,9 +44,7 @@ ___
 
 
 
-___
 
-## ✷ 　 　　˚ \* ✷ 　 　　 　 · 　 ˚ \* ⋆ ＊　 　 · 　 ✧　﹡ 　 　　 \*　　 \* ⋆ 　 . · 　　 ⋆ 　⋆ ✧　 　 · 　 ＊　﹡ ˚ ˚ 　　 ˚ \* ⋆ ＊　 　 · \* 　 ⋆ · 　 \* ⋆ \* 　　 ⋆ ﹡　 　 · 　 ✧　˚ \*
 
 ## AŞAMA 1: PLANLAMA & YÖNLENDİRME (Strateji ve Güvenlik)
 
