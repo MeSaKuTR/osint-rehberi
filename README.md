@@ -32,7 +32,6 @@
 7.  [AKADEMİK VAKA ANALİZİ: "OPERASYON: GÖLGE AĞ"](#🎓-akademik-vaka-analizi-operasyon-gölge-ağ)
 
 
-
 ✷ 　 　　˚ * ✷ 　 　　 　 ·
  　 ˚ *  ⋆ ＊　 　 · 　 ✧　﹡
  　 　　 *　　 * ⋆ 　 .
