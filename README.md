@@ -66,7 +66,9 @@ Operasyonel Güvenlik, görevin temel taşıdır. Kimliği (IP, dijital iz) gizl
 
 -   ** Sanalizasyon ve Ayrıştırma:** Kişisel bilgisayardan izole bir ortamda (`Tails`, `Whonix`, `Kali`) araştırma yapmak için `VirtualBox` veya `VMware` kullanımı.
     
--   ** Gizli Arama:** `DuckDuckGo`, `Brave Search`, `Firefox` veya `Tor Browser` gibi gizliliğe odaklı tarayıcı ve arama motorları.
+-   ** Gizli Arama ve Geniş Arama:** `DuckDuckGo`, `Brave Search`, `Firefox` veya `Tor Browser` gibi gizliliğe odaklı tarayıcı ve arama motorları.
+
+   - `Dogpile (https://www.dogpile.com/)` bir "metasearch engine" yani meta-arama motorudur. Google, Bing, Yahoo gibi birden fazla arama motorunun sonuçlarını birleştirir.
     
 -   **Geçici E-posta:** Sahte profiller oluşturmak için `temp-mail` gibi geçici e-posta servisleri.
     
@@ -84,6 +86,8 @@ Araştırmanın "kırmızı çizgilerini" (hangi bilgilerin toplanıp toplanmaya
     -   [osintframework.com](https://osintframework.com)
         
     -   Alternatif: [Bellingcat Toolkit](https://bellingcat.gitbook.io/toolkit)
+
+    - `https://www.exploit-db.com/` Sistemlerin bilinen zafiyetlerini (exploit) aramak için kullanılır.
         
 -   **Dev Referans GitHub Kaynakları:** Alanında en çok kabul gören ve sürekli güncellenen araç ve kaynak koleksiyonları.
     
@@ -99,7 +103,7 @@ Araştırmanın "kırmızı çizgilerini" (hangi bilgilerin toplanıp toplanmaya
     
     -   Örnek kullanım: [Exposing the Invisible - Google Dorking](https://exposingtheinvisible.org/guides/google-dorking/)
         
--   **Sızıntı Veritabanları:** `Dehashed`, `HaveIBeenPwned`, `LeakCheck.io`, `IntelligenceX`.
+-   **Sızıntı Veritabanları:** `Dehashed`, `HaveIBeenPwned`, `LeakCheck.io`, `IntelligenceX`, `Socradar.io`.
     
 -   **Dark Web Taraması:** `.onion` siteleri ve yeraltı forumlarındaki sızıntı ve çalıntı verilerin taranması (`Tor Browser` gerektirir).
     
@@ -195,7 +199,7 @@ Devletler, belediyeler veya resmi kurumlar tarafından tutulan halka açık kay�
     
 -   **Canlı Kameralar / Wi-Fi:** `Insecam.org`, `Shodan` (webcam filtresi), `Wigle.net` (Dünya çapında Wi-Fi ağ haritaları).
     
--   **Araçlar:** `Geospy, Google Earth Studio`, `Google Earth Pro` (Cetvel ve Zaman Aracı), `Creepy` (Sosyal medya paylaşımlarından konum verisi toplar), `SunCalc.org` (gölge analizi), `PeakVisor` (dağ/tepe tespiti), `MapDevelopers` (Draw Circle Tool).
+-   **Araçlar:** `Geospy, Google Earth Studio`, `Google Earth Pro` (Cetvel ve Zaman Aracı), `Creepy` (Sosyal medya paylaşımlarından konum verisi toplar), `SunCalc.org` `Twilight Map (in-the-sky.org/twilightmap.php)` (gölge analizi). `PeakVisor` (dağ/tepe tespiti), `MapDevelopers` (Draw Circle Tool).
     
     -   > **İpucu:** `MapDevelopers` veya `Google Earth Pro` ile belirli bir geo-koordinat etrafında (örn. 5km yarıçaplı) bir daire çizerek arama alanını daraltma pratiği yapın.
         
