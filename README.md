@@ -68,16 +68,17 @@ Operasyonel Güvenlik, görevin temel taşıdır. Kimliği (IP, dijital iz) gizl
     
 -   ** Gizli Arama ve Geniş Arama:** `DuckDuckGo`, `Brave Search`, `Firefox` veya `Tor Browser` gibi gizliliğe odaklı tarayıcı ve arama motorları.
 
-   - `Dogpile (https://www.dogpile.com/)` bir "metasearch engine" yani meta-arama motorudur. Google, Bing, Yahoo gibi birden fazla arama motorunun sonuçlarını birleştirir.
-    
 -   **Geçici E-posta:** Sahte profiller oluşturmak için `temp-mail` gibi geçici e-posta servisleri.
     
-
 ###  Etik Sınırlar ve Yasal Çerçeve
 
 Araştırmanın "kırmızı çizgilerini" (hangi bilgilerin toplanıp toplanmayacağını) belirlemek. Özel hayatın gizliliğine ve yerel/uluslararası yasalara (KVKK, GDPR vb.) uymak kritiktir.
 
+
+
+
 ## AŞAMA 2:  BİLGİ TOPLAMA (Ham Veri Edinme)
+
 
 ###  Arama ve Sızıntı Analizi
 
@@ -86,8 +87,6 @@ Araştırmanın "kırmızı çizgilerini" (hangi bilgilerin toplanıp toplanmaya
     -   [osintframework.com](https://osintframework.com)
         
     -   Alternatif: [Bellingcat Toolkit](https://bellingcat.gitbook.io/toolkit)
-
-    - https://www.exploit-db.com/ Sistemlerin bilinen zafiyetlerini (exploit) aramak için kullanılır.
         
 -   **Dev Referans GitHub Kaynakları:** Alanında en çok kabul gören ve sürekli güncellenen araç ve kaynak koleksiyonları.
     
@@ -99,14 +98,19 @@ Araştırmanın "kırmızı çizgilerini" (hangi bilgilerin toplanıp toplanmaya
         
     -   [github.com/Astrosp/Awesome-OSINT-For-Everything](https://github.com/Astrosp/Awesome-OSINT-For-Everything)
         
--   **Google Dork:** Gelişmiş arama operatörleriyle gizli dosya, veritabanı ve sızıntıları bulma.
+
+
+-   **Google Dork ve Meta-Arama Motorları:** Gelişmiş arama operatörleriyle gizli dosya, veritabanı ve sızıntıları bulma.
     
     -   Örnek kullanım: [Exposing the Invisible - Google Dorking](https://exposingtheinvisible.org/guides/google-dorking/)
+
+    - `Dogpile (https://www.dogpile.com/)` bir "metasearch engine" yani meta-arama motorudur. Google, Bing, Yahoo gibi birden fazla arama motorunun sonuçlarını birleştirir.
         
 -   **Sızıntı Veritabanları:** `Dehashed`, `HaveIBeenPwned`, `LeakCheck.io`, `IntelligenceX`, `Socradar.io`.
     
 -   **Dark Web Taraması:** `.onion` siteleri ve yeraltı forumlarındaki sızıntı ve çalıntı verilerin taranması (`Tor Browser` gerektirir).
     
+
 
 > 🚩 **Not:** Bu araçlar yalnızca halka açık verileri analiz eder. Erişim her zaman etik ve yasal sınırlar içinde olmalıdır.
 
@@ -149,6 +153,11 @@ Sosyal medya profillerinden ve ağlarından (arkadaş listeleri, beğeniler, eti
         
 -   **Teknoloji Tespiti:** `Wappalyzer` (eklenti) (Web sitesinin kullandığı teknolojileri \[sunucu, CMS, analiz araçları\] tespit eder).
     
+- `Expolit-DB` (https://www.exploit-db.com/) Sistemlerin bilinen zafiyetlerini (exploit) aramak için kullanılır. 
+
+Örneğin önce Shodan, Censys veya Wappalyzer ile bir hedef (sunucu, servis, yazılım) bulursunuz. Sonra, bulduğunuz o yazılımın (örn: "Apache 2.4.51") bilinen bir zafiyeti var mı diye Exploit-DB'ye bakarsınız.
+
+
 
 ###  Alan Adı ve DNS Geçmişi
 
