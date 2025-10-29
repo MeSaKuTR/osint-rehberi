@@ -104,7 +104,7 @@ Araştırmanın "kırmızı çizgilerini" (hangi bilgilerin toplanıp toplanmaya
     
     -   Örnek kullanım: [Exposing the Invisible - Google Dorking](https://exposingtheinvisible.org/guides/google-dorking/)
 
-    - `Dogpile (https://www.dogpile.com/)` bir "metasearch engine" yani meta-arama motorudur. Google, Bing, Yahoo gibi birden fazla arama motorunun sonuçlarını birleştirir.
+    - `Dogpile` (https://www.dogpile.com/) bir "metasearch engine" yani meta-arama motorudur. Google, Bing, Yahoo gibi birden fazla arama motorunun sonuçlarını birleştirir.
         
 -   **Sızıntı Veritabanları:** `Dehashed`, `HaveIBeenPwned`, `LeakCheck.io`, `IntelligenceX`, `Socradar.io`.
     
