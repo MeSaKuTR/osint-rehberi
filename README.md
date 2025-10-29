@@ -208,7 +208,7 @@ Devletler, belediyeler veya resmi kurumlar tarafından tutulan halka açık kay�
     
 -   **Canlı Kameralar / Wi-Fi:** `Insecam.org`, `Shodan` (webcam filtresi), `Wigle.net` (Dünya çapında Wi-Fi ağ haritaları).
     
--   **Araçlar:** `Geospy`, `Google Earth Studio`, `Google Earth Pro` (Cetvel ve Zaman Aracı), `Creepy` (Sosyal medya paylaşımlarından konum verisi toplar), `SunCalc.org` `Twilight Map (in-the-sky.org/twilightmap.php)` (gölge analizi). `PeakVisor` (dağ/tepe tespiti), `MapDevelopers` (Draw Circle Tool).
+-   **Araçlar:** `Geospy`, `Google Earth Studio`, `Google Earth Pro` (Cetvel ve Zaman Aracı), `Creepy` (Sosyal medya paylaşımlarından konum verisi toplar), `SunCalc.org` ,`Twilight Map (in-the-sky.org/twilightmap.php)` (gölge analizi). `PeakVisor` (dağ/tepe tespiti), `MapDevelopers` (Draw Circle Tool).
     
     -   > **İpucu:** `MapDevelopers` veya `Google Earth Pro` ile belirli bir geo-koordinat etrafında (örn. 5km yarıçaplı) bir daire çizerek arama alanını daraltma pratiği yapın.
         
