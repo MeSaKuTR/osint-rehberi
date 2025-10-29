@@ -87,7 +87,7 @@ Araştırmanın "kırmızı çizgilerini" (hangi bilgilerin toplanıp toplanmaya
         
     -   Alternatif: [Bellingcat Toolkit](https://bellingcat.gitbook.io/toolkit)
 
-    - `https://www.exploit-db.com/` Sistemlerin bilinen zafiyetlerini (exploit) aramak için kullanılır.
+    - https://www.exploit-db.com/ Sistemlerin bilinen zafiyetlerini (exploit) aramak için kullanılır.
         
 -   **Dev Referans GitHub Kaynakları:** Alanında en çok kabul gören ve sürekli güncellenen araç ve kaynak koleksiyonları.
     
