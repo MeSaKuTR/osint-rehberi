@@ -96,7 +96,6 @@ Akıllı hedefler seni sadece IP'nden tanımaz. Seni Tarayıcı da ki parmak İz
 Araştırmanın "kırmızı çizgilerini" (hangi bilgilerin toplanıp toplanmayacağını) belirlemek. Özel hayatın gizliliğine ve yerel/uluslararası yasalara (KVKK, GDPR vb.) uymak kritiktir.
 
 
-Teknik İlişkilendirmeyi (Attribution) Kırmak:
 
 ## AŞAMA 2:  BİLGİ TOPLAMA (Ham Veri Edinme)
 
