@@ -84,9 +84,10 @@ Akıllı hedefler seni sadece IP'nden tanımaz. Seni Tarayıcı da ki parmak İz
  
  **EK OLARAK**
  
- - Tarayıcılarda özel gizlilik ayarları Ör:(Firefox'ta privacy.resistFingerprinting) kullanmak.
- - Güvenilir olmayan kaynaklarda arama yaparken(".onion" uzantılı siteler) tarayıcınızı orjinal (Resolution) Çözünürlüğünüzde kullanmaya çalışın! Siteler genelde bunları logluyor...
-- Hangi tarayıcıyı kullanıyorsanız, kullanman önce gizlilik ayarlarını yapın!
+ - Tarayıcılarınızın kendine has özel gizlilik ayarlarını max düzeyde kullanın. Özel ayarlarda var mesela (Firefox'ta privacy.resistFingerprinting) kullanmak vb.
+ 
+ - Güvenilir olmayan kaynaklarda arama yaparken(".onion" uzantılı siteler) tarayıcınızı orjinal (Resolution) çözünürlüğünüzde kullanmaya çalışın! Siteler genelde bunları logluyor...
+
 
 
 
