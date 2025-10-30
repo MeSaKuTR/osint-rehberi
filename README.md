@@ -59,6 +59,9 @@ ___
 
 Görev hedeflerinin netleştirildiği, gerekli kaynakların belirlendiği, etik sınırların çizildiği ve operasyonel güvenliğin (OpSec) sağlandığı stratejik başlangıç aşamasıdır.
 
+
+
+
 ### 👻 OpSec Güvenliği (Teknik)
 
 Operasyonel Güvenlik, görevin temel taşıdır. Kimliği (IP, dijital iz) gizlemek için VPN, sanal makineler (VM), güvenli tarayıcılar ve görev için özel oluşturulmuş sahte (sock puppet) profillerin kullanılmasını kapsar.
@@ -77,7 +80,9 @@ Ama önemli konularda dikkat çekmemek ve doğal akışta bir istihbarat toplama
 
 Akıllı hedefler seni sadece IP'nden tanımaz. Seni Tarayıcı da ki parmak İzine odaklanırlar yani(Browser Fingerprint)'nden tanır: Kullandığın yazı tipleri (fonts), ekran çözünürlüğün, tarayıcı eklentilerin... Milyonlarca insan arasında seni "benzersiz" yapan bir imzadır bu.
 
- - **Nasıl Çözebiliriz:**  
+ - **Nasıl Çözebiliriz:**  KOYUN SÜRÜSÜNE KARIŞACAĞIZ. Dünyada en çok kullanılan çözünürlük, font ve işletim sistemi kullanmak gibi! 
+ 
+ **EK OLARAK**
  
  - Tarayıcılarda özel gizlilik ayarları Ör:(Firefox'ta privacy.resistFingerprinting) kullanmak.
  - Güvenilir olmayan kaynaklarda arama yaparken(".onion" uzantılı siteler) tarayıcınızı orjinal (Resolution) Çözünürlüğünüzde kullanmaya çalışın! Siteler genelde bunları logluyor...
