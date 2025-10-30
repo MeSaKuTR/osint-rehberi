@@ -75,7 +75,7 @@ Ama önemli konularda dikkat çekmemek ve doğal akışta bir istihbarat toplama
 
 - **Teknik İlişkilendirmeyi (Attribution) Kırmak:** 
 
-Akıllı hedefler seni sadece IP'nden tanımaz. Seni Tarayıcı da ki parmak İzine odaklaanırlar (Browser Fingerprint)'nden tanır: Kullandığın yazı tipleri (fonts), ekran çözünürlüğün, tarayıcı eklentilerin... Milyonlarca insan arasında seni "benzersiz" yapan bir imzadır bu.
+Akıllı hedefler seni sadece IP'nden tanımaz. Seni Tarayıcı da ki parmak İzine odaklanırlar yani(Browser Fingerprint)'nden tanır: Kullandığın yazı tipleri (fonts), ekran çözünürlüğün, tarayıcı eklentilerin... Milyonlarca insan arasında seni "benzersiz" yapan bir imzadır bu.
 
  Nasıl Çözebiliriz:  Tarayıcılarda özel gizlilik ayarları Ör:(Firefox'ta privacy.resistFingerprinting) kullanmak.
    ".onion" uzantılı siteler gibi güvenilir olmayan kaynaklarda arama yaparken tarayıcınızı orjinal çözünürlüğünüzde kullanmayın! Siteler genelde bunları logluyor.. 
