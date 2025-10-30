@@ -151,6 +151,9 @@ Sosyal medya profillerinden ve ağlarından (arkadaş listeleri, beğeniler, eti
     -   > Koordinat: `geo:"ENLEM,BOYLAM", "KM-ARALIĞI"` (Koordinatı Google Haritalar URL'sinden alabilirsiniz. Ülke kodları için: [nationsonline.org](https://www.nationsonline.org/oneworld/country_code_list.htm))
         
 -   **Teknoloji Tespiti:** `Wappalyzer` (eklenti) (Web sitesinin kullandığı teknolojileri \[sunucu, CMS, analiz araçları\] tespit eder).
+   
+   BuiltWith ise o sitenin tarihsel olarak (geçmişte) hangi teknolojileri (CMS, sunucu, e-posta sağlayıcı, analiz araçları vb.) kullandığını da gösteren devasa bir veritabanıdır. İkisi birbirinin tamamlayıcısı ve en önemli "Teknoloji Tespiti" araçlarıdır. `BuiltWith` (builtwith.com)
+   
     
 - `Expolit-DB` (https://www.exploit-db.com/) Sistemlerin bilinen zafiyetlerini (exploit) aramak için kullanılır. 
 
@@ -196,7 +199,7 @@ Devletler, belediyeler veya resmi kurumlar tarafından tutulan halka açık kay�
 
 ###  Görüntü Tersine Arama (IMINT)
 
--   **Araçlar:** `Google Lens`, `TinEye`, `Yandex Images`, `Bing Images`, `PhotoSherlock` (Görselin kaynağını veya benzerlerini bulur).
+-   **Araçlar:** `Google Lens`, `TinEye`,`PimEyes`,`Yandex Images`, `Bing Images`, `PhotoSherlock` (Görselin kaynağını veya benzerlerini bulur).
     
     -   > **İpucu:** "Reverse Image Search" gibi tarayıcı eklentileri bu servisleri tek tıkla kullanabilir.
         
@@ -208,11 +211,14 @@ Devletler, belediyeler veya resmi kurumlar tarafından tutulan halka açık kay�
 -   **Canlı Kameralar / Wi-Fi:** `Insecam.org`, `Shodan` (webcam filtresi), `Wigle.net` (Dünya çapında Wi-Fi ağ haritaları).
     
 -   **Araçlar:** `Geospy`, `Google Earth Studio`, `Google Earth Pro` (Cetvel ve Zaman Aracı), `Creepy` (Sosyal medya paylaşımlarından konum verisi toplar), `SunCalc.org` ,`Twilight Map (in-the-sky.org/twilightmap.php)` (gölge analizi). `PeakVisor` (dağ/tepe tespiti), `MapDevelopers` (Draw Circle Tool).
+
+- **Araç Plakaları:** Araç plakalarının hangi ülkeye ait oldduğunu tarihsel olarak depolayan bir database "http://www.worldlicenseplates.com/" 
     
     -   > **İpucu:** `MapDevelopers` veya `Google Earth Pro` ile belirli bir geo-koordinat etrafında (örn. 5km yarıçaplı) bir daire çizerek arama alanını daraltma pratiği yapın.
         
 -   **Pratik:** **Lokasyon bulmak için `GeoGuessr` Oyunu ile pratik yapabilirsiniz. Mükemmeldir!!!**
     
+
 
 ###  Havacılık İstihbaratı (AVINT)
 
@@ -251,6 +257,8 @@ Halka açık radyo frekanslarını, uydu sinyallerini ve IoT cihaz iletişimini 
 -   **Video Doğrulama:** `InVID`, `WeVerify` (Videolardan meta veri çıkarır, karelere ayırır \[tersine arama için\] ve manipülasyon \[deepfake\] tespiti sağlar).
     
 -   **Veri Temizleme:** `OpenRefine` (Büyük miktarda metin, sızıntı veya tablo verisini temizler, çift kayıtları siler ve formatları birleştirerek analize hazırlar).
+
+-   **Görsel Netleştirme:** `unblur veya deblur` PhotoShop bilginiz yoksa bulanık ve net bilgi elde edilemeyen fotoğrafları netleştirebilirsiniz.
     
 
 ## AŞAMA 4:  ANALİZ & ÜRETİM (Noktaları Birleştirme)
