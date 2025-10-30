@@ -63,18 +63,30 @@ Görev hedeflerinin netleştirildiği, gerekli kaynakların belirlendiği, etik 
 
 Operasyonel Güvenlik, görevin temel taşıdır. Kimliği (IP, dijital iz) gizlemek için VPN, sanal makineler (VM), güvenli tarayıcılar ve görev için özel oluşturulmuş sahte (sock puppet) profillerin kullanılmasını kapsar.
 
--   ** Sanalizasyon ve Ayrıştırma:** Kişisel bilgisayardan izole bir ortamda (`Tails`, `Whonix`, `Kali`) araştırma yapmak için `VirtualBox` veya `VMware` kullanımı.
+-   ** Sanalizasyon ve Ayrıştırma:** Kişisel bilgisayardan izole bir ortamda (`Tails`, `Whonix`, `Kali` vb.) gibi işletim sistemlerinde araştırma yapmak için kendi kişisel bilgisayarınıza kurmak yerine `VirtualBox` veya `VMware`gibi sanal makine kullanımları!
     
 -   ** Gizli Arama ve Geniş Arama:** `DuckDuckGo`, `Brave Search`, `Firefox` veya `Tor Browser` gibi gizliliğe odaklı tarayıcı ve arama motorları.
 
--   **Geçici E-posta:** Sahte profiller oluşturmak için `temp-mail` gibi geçici e-posta servisleri.
-    
+-   **Sahte Profiller:** Basit konular için sahte profiller oluşturmak için `temp-mail` gibi geçici e-posta servisleri.
+
+Ama önemli konularda dikkat çekmemek ve doğal akışta bir istihbarat toplamak için ya kendi sunucunuza bağlı bir mail yada proton gibi üst seviye güvenlikli mail servisleri kullanın!  
+
+- Yapay zeka ile üretilmiş gerçek hayatta olmayan kişi fotoğrafı üretiyor: "ThisPersonDoesNotExist.com" Sahte profillerinizde kullanabilirsiniz..
+
+- **Teknik İlişkilendirmeyi (Attribution) Kırmak:** 
+
+Akıllı hedefler seni sadece IP'nden tanımaz. Seni Tarayıcı da ki parmak İzine odaklaanırlar (Browser Fingerprint)'nden tanır: Kullandığın yazı tipleri (fonts), ekran çözünürlüğün, tarayıcı eklentilerin... Milyonlarca insan arasında seni "benzersiz" yapan bir imzadır bu.
+
+ Nasıl Çözebiliriz:  Tarayıcılarda özel gizlilik ayarları Ör:(Firefox'ta privacy.resistFingerprinting) kullanmak.
+   ".onion" uzantılı siteler gibi güvenilir olmayan kaynaklarda arama yaparken tarayıcınızı orjinal çözünürlüğünüzde kullanmayın! Siteler genelde bunları logluyor.. 
+
+
 ###  Etik Sınırlar ve Yasal Çerçeve
 
 Araştırmanın "kırmızı çizgilerini" (hangi bilgilerin toplanıp toplanmayacağını) belirlemek. Özel hayatın gizliliğine ve yerel/uluslararası yasalara (KVKK, GDPR vb.) uymak kritiktir.
 
 
-
+Teknik İlişkilendirmeyi (Attribution) Kırmak:
 
 ## AŞAMA 2:  BİLGİ TOPLAMA (Ham Veri Edinme)
 
