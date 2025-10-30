@@ -74,7 +74,7 @@ Operasyonel Güvenlik, görevin temel taşıdır. Kimliği (IP, dijital iz) gizl
 
 Ama önemli konularda dikkat çekmemek ve doğal akışta bir istihbarat toplamak için ya kendi sunucunuza bağlı bir mail yada proton gibi üst seviye güvenlikli mail servisleri kullanın!  
 
-- Yapay zeka ile üretilmiş gerçek hayatta olmayan kişi fotoğrafı üretiyor: "ThisPersonDoesNotExist.com" Sahte profillerinizde kullanabilirsiniz..
+- Yapay zeka ile üretilmiş gerçek hayatta olmayan kişi fotoğrafı üretiyor: "https://thispersondoesnotexist.com/" Sahte profillerinizde kullanabilirsiniz..
 
 - **Teknik İlişkilendirmeyi (Attribution) Kırmak:** 
 
