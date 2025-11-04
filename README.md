@@ -78,9 +78,7 @@ Bir OSINT operasyonunun başarısı, en zayıf halkası kadar güçlüdür ve bu
 
 Kullanabileceğiniz uygulamalar::
 
-`Signal`
-`Element`
-`Telegram`'ın (Secret Chat) özelliği !
+`Signal`,`Element` uygulamaları ve `Telegram`'ın (Secret Chat) özelliği !
 `WhatsApp` (Meta verilerini topladığı için önermiyorum.) 
 
 
