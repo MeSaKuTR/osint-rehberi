@@ -148,7 +148,7 @@ ___
         
     -   [github.com/cipher387/osint\_stuff\_tool\_collection](https://github.com/cipher387/osint_stuff_tool_collection)
         
-    -   ([https://github.com/Astrosp/Awesome-OSINT-For-Everything](https://github.com/Astrosp/Awesome-OSINT-For-Everything))
+    -   [https://github.com/Astrosp/Awesome-OSINT-For-Everything](https://github.com/Astrosp/Awesome-OSINT-For-Everything)
         
 -   **Google Dork ve Meta-Arama Motorları:** Gelişmiş arama operatörleriyle gizli dosya, veritabanı ve sızıntıları bulma.
     
