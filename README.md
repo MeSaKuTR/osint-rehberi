@@ -80,7 +80,7 @@ Kullanabileceğiniz uygulamalar::
 
 `Signal`
 `Element`
-`Telegram`
+`Telegram`'ın (Secret Chat) özelliği !
 `WhatsApp` (Meta verilerini topladığı için önermiyorum.) 
 
 
