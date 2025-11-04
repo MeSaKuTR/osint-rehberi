@@ -97,7 +97,7 @@ Birine gizli bir bilgi göndermek istediğinizde, onun size verdiği Genel Anaht
 Bu yöntem, mesajın sadece hedeflenen alıcı tarafından okunmasını garanti altına alır. `Kleopatra` kullanabilirsiniz.
 
 
--   **Gizli Arama ve Geniş Arama:** `DuckDuckGo`, `Brave Search`, `Starpage`, `Firefox` veya `Tor Browser` gibi gizliliğe odaklı tarayıcı ve arama motorları kullanılmalıdır.
+-  **Gizli Arama ve Geniş Arama:** Araştırmalarda `DuckDuckGo`, `Brave Search`, `Starpage` gibi gizliliğe odaklı **arama motorları** ve `Firefox` (gelişmiş gizlilik ayarlarıyla) veya `Tor Browser` gibi güvenli **tarayıcılar** kullanılmalıdır.
     
 - **Sahte Profiller:** OSINT çalışmaları için sahte profil (sock puppet) oluştururken kullanılacak e-posta servisleri, operasyonun önemine göre üçe ayrılır:
 
@@ -141,7 +141,7 @@ Bir siteye güvenmeden veya bir dosyayı açmadan önce şu araçlarla hızlı b
         
 -   **`PhishTank`:** Bir sitenin, bilinen bir "Oltalama" (Phishing) sitesi olup olmadığını kontrol eden, topluluk tarafından beslenen devasa bir veritabanıdır.
     
-    -   [phishtank.com](https://www.google.com/search?q=https://phishtank.com)
+    -   [phishtank.com](https://phishtank.com/index.php)
         
 -   **`ScamAdviser`:** Özellikle e-ticaret veya hizmet sitelerinin güvenilirliğini analiz eder. Sitenin yaşı, sahibi, konumu ve kullanıcı yorumlarına göre bir güven puanı oluşturur.
     
