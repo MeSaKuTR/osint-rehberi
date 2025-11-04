@@ -42,15 +42,82 @@ _Hazırlayan: MèSaKu (Katkıları için Laox'a teşekkürler.)_
 
 Görev hedeflerinin netleştirildiği, gerekli kaynakların belirlendiği, etik sınırların çizildiği ve operasyonel güvenliğin (OpSec) sağlandığı stratejik başlangıç aşamasıdır.
 
+
 ### 👻 OpSec Güvenliği (Teknik)
 
-Operasyonel Güvenlik, görevin temel taşıdır. Kimliği (IP, dijital iz) gizlemek için VPN, sanal makineler (VM), güvenli tarayıcılar ve görev için özel oluşturulmuş sahte (sock puppet) profillerin kullanılmasını kapsar.
+Operasyonel Güvenlik, görevin temel taşıdır. Kimliği (IP, dijital iz) gizlemek için VPN("Kill Switch" ve "Split Tunneling" özelliği ve "No Log Policies" politikası olan!)
+, sanal makineler (VM), güvenli tarayıcılar ve görev için özel oluşturulmuş sahte (sock puppet) profillerin kullanılmasını kapsar.
 
--   **Sanalizasyon ve Ayrıştırma:** Kişisel bilgisayardan izole bir ortamda (`Tails`, `Whonix`, `Kali` vb.) gibi işletim sistemlerinde araştırma yapmak için kendi kişisel bilgisayarınıza kurmak yerine `VirtualBox` veya `VMware` gibi sanal makine kullanımları kritiktir.
+- Kullandığın işletim sisteminin Gereksiz telemetry ve veri toplama izinlerini kapatma-kaldırma!
+
+- Kullandığın "Tarayıcı ve İşletim Sistemini" sürekli güncel tut!
+
+-   **Sanalizasyon ve Ayrıştırma:** Kişisel bilgisayardan izole bir ortamda (`Tails`, `Whonix`, `Kali`, `Unix` ve `Qubes Os` vb.) gibi açık kaynak ve gizliliğin ön planda olduğu işletim sistemlerinde araştırma yapmak için `VirtualBox` veya `VMware` gibi sanal makine kullanımları kritiktir. 
     
--   **Gizli Arama ve Geniş Arama:** `DuckDuckGo`, `Brave Search`, `Firefox` veya `Tor Browser` gibi gizliliğe odaklı tarayıcı ve arama motorları kullanılmalıdır.
+- **DNS Şifreleme Protokolleri**
+
+Bu protokollerin temel amacı, DNS sorgularınızı şifrelemektir.
+
+Örneğin:
+  
+  * DNS Over HTTPS
+  * DNS Over TLS
+  * DNS CRYPT
+
+ Veya Güvenliğin ön planda olduğu "DNS" leri Kullanabilirsiniz.
+
+Örneğin:
+  
+  * OpenNic
+  * DNS.Watch 
+
+
+- **İletişim Güvenliği**
+
+Bir OSINT operasyonunun başarısı, en zayıf halkası kadar güçlüdür ve bu halka genellikle iletişimdir. Bir kaynakla, hedefle veya ekip üyesiyle kurulan temasın gizliliği, operasyonun bütününü korumak için esastır. Bu noktada Uçtan Uca Şifreleme (End-to-End Encryption - E2EE), bir lüks değil, temel bir gerekliliktir.
+
+Kullanabileceğiniz uygulamalar::
+
+Signal
+Element
+Telegram
+WhatsApp (Meta verilerini topladığı için önermiyorum.) 
+
+Harika bir ekleme, PGP (veya onun açık kaynaklı alternatifi GPG) gerçekten de özellikle e-posta iletişimi için altın standarttır. Yazdığınız temel mantık doğru, ancak teknik olarak daha net ve doğru hale getirmek için küçük bir düzeltme yapmamız gerekiyor.
+
+Mevcut cümleniz: "Gönderebileceğiniz bilgi veya dosyayı sadece isteiğiniz kişinin görmeesi için ona gönderdiğiniz anahtarla içeriği görmesine olanak sağlarr"
+
+Buradaki kritik düzeltme şu: İçeriği görmek için sizin gönderdiğiniz anahtarı kullanmazlar. Tam tersine, onların size verdiği (veya sizin bulduğunuz) Genel Anahtarı (Public Key) kullanırsınız.
+
+İşte bu bölüm için daha doğru ve net bir açıklama metni:
+
+
+- **Pretty Good Privacy (PGP / GPG) Şifrelemesi**
+
+E-posta veya dosyalar gibi daha geleneksel iletişim kanallarında yüksek güvenlik sağlamak için PGP (veya ücretsiz alternatifi GPG) kullanılır.
+Bu sistem, asimetrik şifrelemeye dayanır. Çalışma mantığı şudur:
+
+Her kullanıcının iki anahtarı vardır: Biri Genel Anahtar (Public Key), diğeri Özel Anahtar (Private Key).
+
+  Genel Anahtar: Dijital bir asma kilittir. Bunu herkese (veya sadece iletişim kurmak istediğiniz kişiye) güvenle verebilirsiniz.
+  Özel Anahtar: O kilidi açan tek anahtardır. Bunu asla kimseyle paylaşmazsınız ve güvende tutarsınız.
+
+Birine gizli bir bilgi göndermek istediğinizde, onun size verdiği Genel Anahtarı (asma kilidini) kullanarak mesajınızı veya dosyanızı kilitlersiniz. Bu kilitlenmiş mesajı artık sadece ve sadece kendi Özel Anahtarına sahip olan o kişi açabilir.
+
+Bu yöntem, mesajın sadece hedeflenen alıcı tarafından okunmasını garanti altına alır. `Kleopatra` kullanabilirsiniz.
+
+
+
+
+-   **Gizli Arama ve Geniş Arama:** `DuckDuckGo`, `Brave Search`, `Starpage`, `Firefox` veya `Tor Browser` gibi gizliliğe odaklı tarayıcı ve arama motorları kullanılmalıdır.
     
--   **Sahte Profiller:** Basit konular için sahte profiller oluşturmak amacıyla `temp-mail` gibi geçici e-posta servisleri kullanılabilir. Ancak önemli konularda dikkat çekmemek ve doğal akışta istihbarat toplamak için ya kendi sunucunuza bağlı bir e-posta ya da `ProtonMail` gibi üst seviye güvenlikli servisler tercih edilmelidir.
+- **Sahte Profiller:** OSINT çalışmaları için sahte profil (sock puppet) oluştururken kullanılacak e-posta servisleri, operasyonun önemine göre üçe ayrılır:
+
+1.  **Hızlı ve Tek Kullanımlık Profiller:** Basit, hızlı ve "kullan-at" mantığıyla açılacak hesaplar için `temp-mail`, `Guerrilla Mail` veya benzeri geçici e-posta servisleri kullanılabilir. Bu servisler, e-postaları kısa bir süre saklar ve kalıcı bir kimlik sağlamaz.
+    
+2.  **Kalıcı Ama Gizli Profiller (Aliasing):** Eğer profillerinizin kalıcı olmasını ancak ana e-posta adresinizin (örneğin ana ProtonMail adresinizin) ifşa olmamasını istiyorsanız, `SimpleLogin` veya `AnonAddy` gibi e-posta takma adı (aliasing) servisleri idealdir. Bu servisler, oluşturduğunuz her sahte profil için ayrı bir "maske" e-posta adresi yaratır ve gelen postaları güvenli ana kutunuza iletir.
+    
+3.  **Önemli ve Yüksek Güvenlikli Operasyonlar:** Tespit edilmemenin kritik olduğu, dikkat çekmemek ve doğal akışta istihbarat toplamak gereken önemli konularda, tamamen bağımsız ve güvenli servislere ihtiyaç duyulur. Bu durumda `ProtonMail` veya `Tuta Mail` gibi uçtan uca şifreleme sunan, anonimliğe önem veren servisler tercih edilmelidir. Alternatif olarak, (çok yüksek teknik OpSec bilgisi gerektirse de) kendi sunucunuza bağlı bir e-posta adresi de kullanılabilir.
     
 -   Yapay zeka ile üretilmiş, gerçek hayatta olmayan kişi fotoğrafı üreten bir site: [thispersondoesnotexist.com](https://thispersondoesnotexist.com/). Sahte profillerinizde kullanabilirsiniz.
     
@@ -63,6 +130,8 @@ Operasyonel Güvenlik, görevin temel taşıdır. Kimliği (IP, dijital iz) gizl
         -   Tarayıcılarınızın kendine has özel gizlilik ayarlarını maksimum düzeyde kullanın (örneğin Firefox'ta `privacy.resistFingerprinting` ayarını aktifleştirmek).
             
         -   Güvenilir olmayan kaynaklarda (`.onion` uzantılı siteler gibi) arama yaparken tarayıcınızı tam ekran modunda kullanmamaya çalışın. Siteler genellikle ekran çözünürlüğünüzü loglayarak sizi parmak iziyle tanıyabilir.
+
+        Bu tarz sitelerden "https://coveryourtracks.eff.org/" web parmak izinizi test edebilirsiniz.
             
 
 ###  Etik Sınırlar ve Yasal Çerçeve
