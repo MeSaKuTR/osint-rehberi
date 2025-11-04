@@ -78,10 +78,10 @@ Bir OSINT operasyonunun başarısı, en zayıf halkası kadar güçlüdür ve bu
 
 Kullanabileceğiniz uygulamalar::
 
-Signal
-Element
-Telegram
-WhatsApp (Meta verilerini topladığı için önermiyorum.) 
+`Signal`
+`Element`
+`Telegram`
+`WhatsApp` (Meta verilerini topladığı için önermiyorum.) 
 
 
 - **Pretty Good Privacy (PGP / GPG) Şifrelemesi**
