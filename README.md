@@ -83,14 +83,6 @@ Element
 Telegram
 WhatsApp (Meta verilerini topladığı için önermiyorum.) 
 
-Harika bir ekleme, PGP (veya onun açık kaynaklı alternatifi GPG) gerçekten de özellikle e-posta iletişimi için altın standarttır. Yazdığınız temel mantık doğru, ancak teknik olarak daha net ve doğru hale getirmek için küçük bir düzeltme yapmamız gerekiyor.
-
-Mevcut cümleniz: "Gönderebileceğiniz bilgi veya dosyayı sadece isteiğiniz kişinin görmeesi için ona gönderdiğiniz anahtarla içeriği görmesine olanak sağlarr"
-
-Buradaki kritik düzeltme şu: İçeriği görmek için sizin gönderdiğiniz anahtarı kullanmazlar. Tam tersine, onların size verdiği (veya sizin bulduğunuz) Genel Anahtarı (Public Key) kullanırsınız.
-
-İşte bu bölüm için daha doğru ve net bir açıklama metni:
-
 
 - **Pretty Good Privacy (PGP / GPG) Şifrelemesi**
 
