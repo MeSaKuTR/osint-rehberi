@@ -97,8 +97,6 @@ Birine gizli bir bilgi göndermek istediğinizde, onun size verdiği Genel Anaht
 Bu yöntem, mesajın sadece hedeflenen alıcı tarafından okunmasını garanti altına alır. `Kleopatra` kullanabilirsiniz.
 
 
-
-
 -   **Gizli Arama ve Geniş Arama:** `DuckDuckGo`, `Brave Search`, `Starpage`, `Firefox` veya `Tor Browser` gibi gizliliğe odaklı tarayıcı ve arama motorları kullanılmalıdır.
     
 - **Sahte Profiller:** OSINT çalışmaları için sahte profil (sock puppet) oluştururken kullanılacak e-posta servisleri, operasyonun önemine göre üçe ayrılır:
@@ -122,6 +120,39 @@ Bu yöntem, mesajın sadece hedeflenen alıcı tarafından okunmasını garanti 
         -   Güvenilir olmayan kaynaklarda (`.onion` uzantılı siteler gibi) arama yaparken tarayıcınızı tam ekran modunda kullanmamaya çalışın. Siteler genellikle ekran çözünürlüğünüzü loglayarak sizi parmak iziyle tanıyabilir.
 
         Bu tarz sitelerden "https://coveryourtracks.eff.org/" web parmak izinizi test edebilirsiniz.
+
+     
+   -   **Site ve Kaynak Güvenilirliği (Klon / Sahte Site Tespiti):** Araştırma sırasında karşılaşılan her web sitesi güvenli veya doğru bilgiye sahip olmayabilir. Bazı siteler, popüler platformların veya haber kaynaklarının birebir kopyası (klonu) olarak tasarlanmış olabilir.
+
+Bu tür sitelerin amacı operasyonunuzu sabote etmektir:
+
+-   **Yanlış Bilgi (Dezenformasyon):** Sizi kasıtlı olarak yanlış bir sonuca yönlendirmek.
+    
+-   **Deşifre Etme (Tuzak):** Sahte bir giriş (login) ekranı veya IP logger aracılığıyla sahte kimliğinizi (sock puppet) ve gerçek IP adresinizi ele geçirmek.
+    
+-   **Dolandırıcılık ve Kötü Amaçlı Yazılım:** Kredi kartı bilgilerinizi çalmak veya cihazınıza zararlı yazılım (malware) bulaştırmak.
+    
+
+Bir siteye güvenmeden veya bir dosyayı açmadan önce şu araçlarla hızlı bir güvenlik kontrolü yapmak kritik bir OpSec adımıdır:
+
+-   **`VirusTotal`:** Sadece indirdiğiniz şüpheli dosyaları değil, aynı zamanda URL'leri de taramak için kullanılır. Onlarca antivirüs motorunun veritabanını kullanarak bir adresin veya dosyanın kötü amaçlı olarak etiketlenip etiketlenmediğini saniyeler içinde gösterir.
+    
+    -   [virustotal.com](https://www.virustotal.com/gui/home/upload)
+        
+-   **`PhishTank`:** Bir sitenin, bilinen bir "Oltalama" (Phishing) sitesi olup olmadığını kontrol eden, topluluk tarafından beslenen devasa bir veritabanıdır.
+    
+    -   [phishtank.com](https://www.google.com/search?q=https://phishtank.com)
+        
+-   **`ScamAdviser`:** Özellikle e-ticaret veya hizmet sitelerinin güvenilirliğini analiz eder. Sitenin yaşı, sahibi, konumu ve kullanıcı yorumlarına göre bir güven puanı oluşturur.
+    
+    -   [scamadviser.com](https://www.scamadviser.com)
+        
+
+**Ek Manuel Kontroller:**
+
+-   **URL'yi Gözle İncele:** Adres çubuğunu dikkatle okuyun. `google.com` yerine `go0gle.com` veya `googIe.com` (büyük 'i' harfi) gibi "typosquatting" tuzakları var mı?
+    
+-   **SSL Sertifikası:** Tarayıcıdaki kilit simgesine tıklayarak sertifikanın kime (hangi şirkete) ve ne zaman düzenlendiğini hızlıca kontrol edin.
             
 
 ###  Etik Sınırlar ve Yasal Çerçeve
