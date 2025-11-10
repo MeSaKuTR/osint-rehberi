@@ -54,22 +54,7 @@ Operasyonel Güvenlik, görevin temel taşıdır. Kimliği (IP, dijital iz) gizl
 
 -   **Sanalizasyon ve Ayrıştırma:** Kişisel bilgisayardan izole bir ortamda (`Tails`, `Whonix`, `Kali`, `Unix` ve `Qubes Os` vb.) gibi açık kaynak ve gizliliğin ön planda olduğu işletim sistemlerinde araştırma yapmak için `VirtualBox` veya `VMware` gibi sanal makine kullanımları kritiktir. 
     
-- **DNS Şifreleme Protokolleri**
-
-Bu protokollerin temel amacı, DNS sorgularınızı şifrelemektir.
-
-Örneğin:
-  
-  * DNS Over HTTPS
-  * DNS Over TLS
-  * DNS CRYPT
-
- Veya Güvenliğin ön planda olduğu "DNS" leri Kullanabilirsiniz.
-
-Örneğin:
-  
-  * OpenNic
-  * DNS.Watch 
+ 
 
 
 - **İletişim Güvenliği**
