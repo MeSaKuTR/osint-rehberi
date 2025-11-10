@@ -199,7 +199,48 @@ Sosyal medya profillerinden ve ağlarından (arkadaş listeleri, beğeniler, eti
     
 -   **Meta İçerik Kütüphanesi:** Meta'nın Facebook ve Instagram verilerine (öncelikli olarak akademik) erişim aracı.
     
+Harika bir seçim. Bu iki araç, rehberinizdeki **Kriptografi** ve **Steganografi** başlıkları için sektör standardı sayılan, mükemmel ve birbirini tamamlayan araçlardır.
 
+Rehberinize eklemeniz için bu araçların ne işe yaradığını ve OSINT/CTF bağlamında nasıl konumlandırılacağını açıklayan bir bölüm hazırladım:
+
+___
+
+###  Kriptografi & Steganografi (Gizlenmiş Veriyi Ortaya Çıkarma)
+
+OSINT araştırmalarında veya CTF yarışmalarında, aradığınız bilgi (flag) her zaman açık metin (plaintext) olarak karşınıza çıkmaz. Bazen şifrelenmiş bir metin (kriptografi) veya bir resim dosyası gibi masum görünen bir verinin içine gizlenmiş (steganografi) olabilir.
+
+Bu bölümde, bu iki yaygın engeli aşmak için kullanılan iki temel aracı inceleyeceğiz.
+
+#### 1\. dCode.fr (Kriptografi için İsviçre Çakısı)
+
+-   **URL:** `https://www.dcode.fr/`
+    
+-   **Kullanım Amacı:** **Kriptografi.** (Şifrelenmiş veya Kodlanmış Metinleri Çözmek)
+    
+-   **Açıklama:** dCode, karşılaştığınız "anlamsız" görünen bir metin bloğunun ne olduğunu anlamak ve çözmek için başvuracağınız ilk yerdir. Yüzlerce farklı şifreleme yöntemini (Sezar, Vigenère, Atbash gibi), kodlamayı (Base64, Hex, Morse Kodu, ASCII gibi) ve tarihi alfabeyi tanıyan devasa bir çevrimiçi kütüphanedir.
+    
+-   **En Güçlü Özelliği:** **Otomatik Tanımlayıcı (Cipher Identifier).** Elinizdeki şifreli metni (ciphertext) ana sayfadaki "Chiffrement Inconnu" (Bilinmeyen Şifre) kutusuna yapıştırdığınızda, dCode bunun hangi yöntemle şifrelenmiş olabileceğini sizin yerinize analiz eder ve olası çözümleri listeler.
+    
+-   **OSINT/CTF Senaryosu:** Bir hedefin web sitesinin kaynak kodunda \`\` şeklinde bir yorum satırı buldunuz. Bunun anlamsız olduğunu biliyorsunuz. dCode'a yapıştırdığınızda, bunun **Base64** ile kodlandığını ve "gizli parola: 12345" anlamına geldiğini size saniyeler içinde söyleyecektir.
+    
+
+___
+
+#### 2\. Aperi'Solve (Steganografi Uzmanı)
+
+-   **URL:** `https://aperisolve.fr/`
+    
+-   **Kullanım Amacı:** **Steganografi.** (Dosyaların İçine Gizlenmiş Verileri Bulmak)
+    
+-   **Açıklama:** Aperi'Solve, özellikle resim dosyalarına odaklanan bir çevrimiçi steganografi analiz platformudur. Bir görselin içine gizlenmiş başka dosyaları, metinleri veya ipuçlarını bulmak için tasarlanmıştır.
+    
+-   **En Güçlü Özelliği:** **Hepsi Bir Arada Analiz.** Siz dosyayı yüklediğinizde, Aperi'Solve arka planda otomatik olarak `zsteg`, `steghide`, `outguess`, `exiftool`, `binwalk`, `foremost` ve `strings` gibi en popüler adli bilişim (forensics) ve steganografi araçlarını çalıştırır. Görüntünün farklı renk katmanlarını analiz eder, meta verilerini (EXIF) döker ve içinden çıkarılabilecek gizli dosyaları listeler.
+    
+-   **OSINT/CTF Senaryosu:** Bir CTF sorusunda size sadece bir `.png` veya `.jpg` dosyası verildi. Görüntüde hiçbir ipucu yok. Resmi Aperi'Solve'a yüklediğinizde, "Strings" sekmesinde bir parola, "Binwalk" sekmesinde ise resmin içine gömülmüş (embedded) bir `.zip` dosyası bulabilirsiniz.
+
+
+
+-
 ###  Teknik Altyapı Taraması
 
 -   **Altyapı Tespiti:** `Whois` (Alan adı sahiplik bilgisi).
